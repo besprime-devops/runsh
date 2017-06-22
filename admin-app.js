@@ -33,5 +33,5 @@ app.post('/build/eservice', function (req, res) {
 })
 
 app.listen(PORT || 8000, function () {
-    console.log('Example app listening on port !')
+    console.log('App is listening on port ' + PORT)
 })
